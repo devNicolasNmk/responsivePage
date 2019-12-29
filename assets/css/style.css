@@ -8,7 +8,7 @@
 
 body {
     width: 99.1vw;
-    height: 99.5vh;
+    /* height: 99.5vh; */
 }
 
 body,
@@ -43,7 +43,7 @@ figure {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     /* max-height: 150px; */
 }
 
@@ -66,7 +66,7 @@ h3 {
     align-items: center;
     color: white;
     width: 100%;
-    height: 5%;
+    height: 5rem;
     min-height: 5rem;
     background-color: #000000;
 }
@@ -116,7 +116,7 @@ nav ul li a:hover {
 .global-content {
     display: flex;
     width: 100%;
-    height: 90%;
+    height: 100rem;
     background-color: royalblue;
 }
 
@@ -129,6 +129,7 @@ nav ul li a:hover {
 
 /* main-content */
 .main-content {
+    position: relative;
     width: 85%;
     height: 100%;
     background-color: burlywood;
@@ -136,6 +137,7 @@ nav ul li a:hover {
 
 #search-nav {
     display: none;
+    position: absolute;
     justify-content: end;
     padding-right: 2rem;
     align-items: center;
@@ -150,6 +152,42 @@ nav ul li a:hover {
     height: 3rem;
     border: 0.1rem solid rgba(0, 0, 0, 0.4);
 
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    background-color: #000000;
+    color: white;
+}
+
+.banner a{
+    color: #ffffff;
+}
+
+.banner a:hover {
+    color: green;
+}
+
+.img-banner{
+    width: 33.33%;
+    overflow: hidden;
+}
+
+figure{
+    overflow: hidden;
+    height: 60%;
+}
+
+.h4-banner, .h3-banner{
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.h3-banner{
+    font-weight: normal;
+    font-size: 1.4rem;
 }
 
 /* ------------------ global footer ------------------ */
