@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 /* --------------------- reset css --------------------- */
 
 :root {
@@ -61,8 +63,14 @@ h3 {
 
 /* --------- nav --------- */
 .header-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     color: white;
     width: 100%;
@@ -72,21 +80,33 @@ h3 {
 }
 
 h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 50%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 
 }
 
 .header-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
 }
 
 h1 a,
 ul li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     color: white;
     height: 5rem;
@@ -103,8 +123,14 @@ nav ul li a:hover {
 }
 
 .search {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 5%;
     height: 100%;
@@ -114,6 +140,8 @@ nav ul li a:hover {
 /* ------------------ global-content ------------------ */
 
 .global-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: 100rem;
@@ -138,8 +166,12 @@ nav ul li a:hover {
 #search-nav {
     display: none;
     position: absolute;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: end;
     padding-right: 2rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     width: 100%;
     background-color: green;
@@ -154,7 +186,9 @@ nav ul li a:hover {
 
 }
 
-.banner{
+.banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
     height: 40rem;
@@ -162,7 +196,7 @@ nav ul li a:hover {
     color: white;
 }
 
-.banner a{
+.banner a {
     color: #ffffff;
 }
 
@@ -170,22 +204,23 @@ nav ul li a:hover {
     color: green;
 }
 
-.img-banner{
+.img-banner {
     width: 33.33%;
     overflow: hidden;
 }
 
-figure{
+figure {
     overflow: hidden;
     height: 60%;
 }
 
-.h4-banner, .h3-banner{
+.h4-banner,
+.h3-banner {
     padding-top: 1.5rem;
     padding-left: 0.5rem;
 }
 
-.h3-banner{
+.h3-banner {
     font-weight: normal;
     font-size: 1.4rem;
 }
