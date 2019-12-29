@@ -5,7 +5,10 @@
     font-size: 62.5%;
     /* font-size: 50%; */
 }
-
+body{
+    width: 100vw;
+    height: 100vh;
+}
 body,
 [type=submit] {
     margin: 0;
@@ -16,8 +19,9 @@ body,
 
 * {
     -webkit-box-sizing: border-box;
+    margin: 0;
     box-sizing: border-box;
-    outline: none
+    /* outline: none */
 }
 
 ul,
@@ -44,4 +48,48 @@ img {
 h3 {
     font-weight: normal;
     text-transform: uppercase;
+}
+
+/* --------- global wrapper --------- */
+
+#global-wrapper{
+    width: 100%;
+    height: 100%
+}
+
+/* --------- nav --------- */
+.header-nav{
+    width: 100%;
+    height: 5%;
+    background-color: blueviolet;
+}
+
+/* --------- global-content --------- */
+
+.global-content {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    background-color: royalblue;
+}
+/* subcontent */
+.sub-content{
+    width:15%;
+    height:100%;
+    background-color: brown;
+}
+
+/* main-content */
+.main-content {
+    width:85%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+/* ---------global footer --------- */
+
+.global-footer{
+    width: 100%;
+    height: 5%;
+    background-color: greenyellow;
 }
