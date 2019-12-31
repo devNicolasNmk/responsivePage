@@ -1,5 +1,6 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
 
+
 /* --------------------- reset css --------------------- */
 
 :root {
@@ -151,8 +152,15 @@ nav ul li a:hover {
 
 /* subcontent */
 .sub-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 1rem;
     width: 15%;
@@ -179,7 +187,13 @@ nav ul li a:hover {
 
 .ul-content li {
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     height: 5rem;
@@ -195,7 +209,10 @@ nav ul li a:hover {
 }
 
 .search-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-line-pack: center;
     align-content: center;
     width: 82%;
     margin-top: 5rem;
@@ -212,24 +229,25 @@ nav ul li a:hover {
     line-height: 2rem;
 }
 
-.release{
+.release {
     width: 80%;
-    color : #ffffff;
+    color: #ffffff;
 }
 
-.release h2{
+.release h2 {
     margin-bottom: 3rem;
     font-size: 1.5rem;
 }
-.release ul{
+
+.release ul {
     margin-top: 1rem;
 }
 
-.img-listener{
+.img-listener {
     line-height: 13rem;
 }
 
-.release a{
+.release a {
     color: #ffffff
 }
 
@@ -237,32 +255,32 @@ nav ul li a:hover {
     color: #41a62a
 }
 
-.thanks{
+.thanks {
     width: 80%;
-    color : #ffffff;
+    color: #ffffff;
     margin-bottom: 3rem;
 }
 
-.thanks a{
-   color : #ffffff;
-   line-height: 3rem;
+.thanks a {
+    color: #ffffff;
+    line-height: 3rem;
 }
 
 .thanks a:hover {
     color: #41a62a;
 }
 
-.ul-thx{
+.ul-thx {
     margin-top: 2rem;
 }
 
-.footer-article{
+.footer-article {
     width: 80%;
-    color : #ffffff;
+    color: #ffffff;
 }
 
-.footer-article a{
-    color : #ffffff;
+.footer-article a {
+    color: #ffffff;
 }
 
 .footer-article a:hover {
@@ -344,8 +362,13 @@ figure {
 /* ------------------ section ------------------------ */
 
 section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
     width: 100%;
     height: 40rem;
@@ -353,9 +376,16 @@ section {
 }
 
 .section-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 60rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     text-align: justify;
     width: 30%;
@@ -368,7 +398,11 @@ section {
 .article-content ul li a {
     color: #000000;
     width: 100%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
     height: 2rem;
 }
@@ -413,7 +447,11 @@ hr {
     width: 100%;
     height: 5rem;
     background-color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding-left: 3rem;
 }
