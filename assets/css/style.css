@@ -47,7 +47,7 @@ figure {
 
 img {
     width: 100%;
-    /* max-height: 150px; */
+    
 }
 
 h3 {
@@ -188,9 +188,7 @@ nav ul li a:hover {
 .ul-content li {
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -323,8 +321,9 @@ nav ul li a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 40rem;
+    /* height: 40rem; */
     margin-bottom: 6rem;
     background-color: #000000;
     color: white;
@@ -339,13 +338,16 @@ nav ul li a:hover {
 }
 
 .img-banner {
-    width: 33.33%;
+    width:33.33%;
+    width:53.9rem;
     overflow: hidden;
+    margin-bottom: 5rem;
 }
 
 figure {
     overflow: hidden;
-    height: 60%;
+    height: 30rem;
+
 }
 
 .h4-banner,
