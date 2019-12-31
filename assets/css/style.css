@@ -236,6 +236,39 @@ nav ul li a:hover {
 .release a:hover {
     color: #41a62a
 }
+
+.thanks{
+    width: 80%;
+    color : #ffffff;
+    margin-bottom: 3rem;
+}
+
+.thanks a{
+   color : #ffffff;
+   line-height: 3rem;
+}
+
+.thanks a:hover {
+    color: #41a62a;
+}
+
+.ul-thx{
+    margin-top: 2rem;
+}
+
+.footer-article{
+    width: 80%;
+    color : #ffffff;
+}
+
+.footer-article a{
+    color : #ffffff;
+}
+
+.footer-article a:hover {
+    color: #41a62a;
+}
+
 /* main-content */
 .main-content {
     position: relative;
