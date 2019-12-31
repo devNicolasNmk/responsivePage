@@ -87,6 +87,7 @@ h1 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-left: 1rem;
 
 }
 
@@ -98,7 +99,7 @@ h1 {
 }
 
 h1 a,
-ul li a {
+.header-ul li a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -145,14 +146,42 @@ nav ul li a:hover {
     display: flex;
     width: 100%;
     height: 120rem;
-    background-color: royalblue;
+    background-color: #000000
 }
 
 /* subcontent */
 .sub-content {
+    margin-top: 1rem;
     width: 15%;
     height: 100%;
-    background-color: brown;
+    background-color: #000000;
+}
+
+.sub-content-title{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: normal;
+    margin-left: 2rem;
+}
+
+.ul-content{
+   border-top: 1px solid rgba(255, 255, 255, 0.3);
+   margin-top : 3rem;
+}
+.ul-content li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    height: 5rem;
+}
+
+.ul-content li:hover {
+background-color: green;
+}
+
+.ul-content li a{
+color:#ffffff;
+margin-left: 2rem;
 }
 
 /* main-content */
