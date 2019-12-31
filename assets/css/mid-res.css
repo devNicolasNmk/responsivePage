@@ -1,0 +1,24 @@
+@media screen and (max-width: 1600px) {
+    
+    .banner {
+        width: 100%;
+    }
+    .img-banner {
+        width: 53.9rem;
+
+    }
+    .sub-content{
+        order : 2;
+        width: 100%;
+    }
+
+    .main-content{
+        order : 1;
+        width: 100%;
+    }
+
+    .global-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
