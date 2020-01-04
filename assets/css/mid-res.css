@@ -137,8 +137,31 @@
     .header-ul li a {
         font-weight: bold;
         font-size: 1.6rem;
-
+        width: 100%;
+        justify-content: start;
+        padding-left: 1rem;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+    
+    .section-content {
+        align-items: center;
+       
+    }
+
+    iframe{
+        width: 80%;
+    }
+
+    .section-content p{
+        width: 72%;
+        
+    }
+
+    .article-content{
+        width: 90%;
+    }
 }
 
