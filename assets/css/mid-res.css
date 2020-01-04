@@ -25,15 +25,23 @@
         order : 1;
         width: 100%;
     }
-/* global content*/
+/* global content */
     .global-content{
         display: flex;
         flex-direction: column;
     }
-
+       .release figure {
+           height: 100rem;
+       }
 }
 
 @media screen and (max-width: 1080px) {
+
+    /* global content */
+
+    .release figure{
+        height: 80rem;
+    }
     section{
         flex-direction: column;
         align-items: center;
@@ -53,7 +61,37 @@
         width: 60rem;
     }
 
-
-
 }
 
+@media screen and (max-width: 968px) {
+
+    /* global content */
+    :root {
+        /* 1 rem = 10px */
+
+        font-size: 50%;
+    }
+    .release{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+
+    .release .img-listener {
+        height: 50rem;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .thanks,
+    .footer-article {
+         margin-bottom: 4rem;
+    }
+
+    .global-footer{
+        padding-left: 0;
+        justify-content: center;
+    }
+
+}
