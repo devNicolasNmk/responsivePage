@@ -1,0 +1,148 @@
+@media screen and (max-width: 1280px) {
+/* top nav */
+    .header-ul li a{
+        font-size: 1.4rem;
+        width: 8rem;
+
+    }
+    #search{
+        width: 10rem;
+
+    }
+    
+    .banner {
+        width: 100%;
+        justify-content: center;
+
+    }
+    .img-banner {
+        width: 53.9rem;
+
+    }
+    .sub-content{
+        order : 2;
+        width: 100%;
+
+    }
+
+    .main-content{
+        order : 1;
+        width: 100%;
+
+    }
+/* global content */
+    .global-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .release figure {
+        height: 100rem;
+
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    /* global content */
+
+    .release figure{
+        height: 80rem;
+
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    section h2{
+        font-size: 3rem;
+
+    }
+
+    iframe{
+        width: 90%;
+
+    }
+    
+    .section-content,
+    .article-content {
+        width: 60rem;
+
+    }
+
+}
+
+@media screen and (max-width: 968px) {
+
+    /* global content */
+    :root {
+        /* 1 rem = 10px */
+        font-size: 50%;
+
+    }
+    .release{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-bottom: 4rem;
+
+    }
+
+    .release .img-listener {
+        height: 50rem;
+        display: flex;
+        align-items: flex-end;
+
+    }
+
+    .thanks,
+    .footer-article {
+        margin-bottom: 4rem;
+
+    }
+
+    .global-footer{
+        padding-left: 0;
+        justify-content: center;
+
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .menu-button{
+        display: block;
+
+    }
+
+    .header-ul{
+        visibility: hidden;
+        position: absolute;
+        flex-direction: column;
+        top:3.1em;
+        width: 100%;
+        background-color: #000000;
+        z-index: 1;
+        padding-top: 1rem
+        
+    }
+
+    .header-ul li{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+         
+    }
+
+    .header-ul li a {
+        font-weight: bold;
+        font-size: 1.6rem;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+}

@@ -6,12 +6,6 @@
 :root {
     /* 1 rem = 10px */
     font-size: 62.5%;
-    /* font-size: 50%; */
-}
-
-body {
-    width: 99.1vw;
-    /* height: 99.5vh; */
 }
 
 body,
@@ -99,6 +93,10 @@ h1 {
 
 }
 
+.header-ul li a{
+    font-size: 1.4rem;
+}
+
 h1 a,
 .header-ul li a {
     display: -webkit-box;
@@ -134,9 +132,23 @@ nav ul li a:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 5%;
+    width: 5rem;
     height: 100%;
     background-color: #41a62a;
+}
+
+.menu-button{
+    display: none;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border:0;
+    width: 6rem;
+    height: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0;
+    margin-right: 1rem;
 }
 
 /* ------------------ global-content ------------------ */
@@ -145,8 +157,6 @@ nav ul li a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
-    height: 120rem;
     background-color: #000000
 }
 
@@ -164,7 +174,7 @@ nav ul li a:hover {
     align-items: center;
     margin-top: 1rem;
     width: 15%;
-    height: 100%;
+    /* height: 100%; */
     background-color: #000000;
 }
 
@@ -339,7 +349,7 @@ nav ul li a:hover {
 
 .img-banner {
     width:33.33%;
-    width:53.9rem;
+
     overflow: hidden;
     margin-bottom: 5rem;
 }
@@ -369,12 +379,9 @@ section {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
     width: 100%;
-    height: 40rem;
-    margin: auto;
+    margin-bottom: 10rem;
+   
 }
 
 .section-content {
@@ -390,11 +397,14 @@ section {
     -ms-flex-pack: justify;
     justify-content: space-between;
     text-align: justify;
-    width: 30%;
+    width: 40rem;
+    margin-bottom: 10rem;
 }
 
 .article-content {
-    width: 30%;
+    width: 40rem;
+    height: 60rem;
+    margin-bottom: 10rem;
 }
 
 .article-content ul li a {
@@ -407,6 +417,7 @@ section {
     -ms-flex-align: start;
     align-items: flex-start;
     height: 2rem;
+    
 }
 
 .ul-article .first-a {
