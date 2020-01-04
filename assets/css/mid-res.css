@@ -1,7 +1,16 @@
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1280px) {
+/* top nav */
+    .header-ul li a{
+        font-size: 1.4rem;
+        width: 8rem;
+    }
+    #search{
+        width: 10rem;
+    }
     
     .banner {
         width: 100%;
+        justify-content: center;
     }
     .img-banner {
         width: 53.9rem;
@@ -16,9 +25,35 @@
         order : 1;
         width: 100%;
     }
-
+/* global content*/
     .global-content{
         display: flex;
         flex-direction: column;
     }
+
 }
+
+@media screen and (max-width: 1080px) {
+    section{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    section h2{
+        font-size: 3rem;
+    }
+
+    iframe{
+        width: 90%;
+    }
+    
+    .section-content,
+    .article-content {
+        width: 60rem;
+    }
+
+
+
+}
+
