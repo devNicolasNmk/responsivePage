@@ -43,7 +43,12 @@
 
 @media screen and (max-width: 1080px) {
 
-    /* global content */
+     /* global content */
+     :root {
+         /* 1 rem = 10px */
+         font-size: 50%;
+
+     }
 
     .release figure{
         height: 80rem;
