@@ -8,10 +8,10 @@ var search_nav = document.getElementById('search-nav');
 search.addEventListener('click', function(){
 
     //show
-    if (search_nav.style.display == 'none'){
-        search_nav.style.display='flex';
+    if (search_nav.style.visibility == 'visible'){
+        search_nav.style.visibility='hidden';
      //hide    
     }else{
-        search_nav.style.display = 'none'
+        search_nav.style.visibility = 'visible'
     }
 })
